@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <!-- HEADER -->
+    <header class="header">
+      <div class="logo">
+        <a href="index.html">
+          <img src="images/logo.svg" alt="Logo-Fylo">
+        </a>
+      </div>
+
+      <nav class="navbar">
+        <ul class="nav">
+          <li class="list-items"><a href="#">Features</a></li>
+          <li class="list-items"><a href="#">Team</a></li>
+          <li class="list-items"><a href="#"> Sign In</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- CONTENT -->
+    <!-- SECTION GET-STARTED -->
+    <main class="content">
+      <section class="get-started flex-content">
+        <article class="image-sections image-get-started">
+          <img src="images/illustration-1.svg" alt="image-get-started">
+        </article>
+        <article class="get-started-info">
+          <h1 class="get-started-title"> All your files in one secure location, accessible anywhere.</h1>
+          <p class="get-started-description">
+            Fylo stores your most important files in one secure location.
+            Access them wherever you need, share and collaborate with friends,
+            family, and co-workers.
+          </p>
+          <div class="get-started-contact">
+            <input type="email" class="email" placeholder="Enter your email...">
+            <a href="#" class="get-started-button">Get Started</a>
+          </div>
+        </article>
+
+      </section>
+      <section class="stay-productive flex-content">
+        <div class="stay-curve"></div>
+        <article class="image-sections">
+          <img src="images/illustration-2.svg" alt="stay-productive-image">
+        </article>
+        <article class="stay-info">
+          <h2 class="stay-title">Stay productive, wherever you are</h2>
+          <p class="stay-description"> Never let location be an issue when accessing your files. Fylo has you
+            covered for all of your file storage needs.
+          </p>
+          <p class="stay-description">Securely share files and folders with friends, family and colleagues for
+            live collaboration. No email attachments required!
+          </p>
+          <div class="see-fylo-works">
+           <a href="#" class="arrow-icon">
+              <h3>
+                 See how Fylo work
+                  <i class="fas fa-arrow-circle-right"></i>
+              </h3>
+           </a>
+          </div>
+          <section class="card-testimonial">
+            <img src="images/icon-quotes.svg" alt="quotes">
+            <p class="card-description">
+              Fylo has improved our team productivity by an order of magnitude. Since
+              the switch our team has become a well-oiled collaboration machine.
+            </p>
+            <div class="user">
+              <img src="images/avatar-testimonial.jpg" alt="Kyle-Burton">
+              <div class="user-info">
+                <h2>Kyle Burton</h2>
+                <span>Founder & CEO, Huddle </span>
+              </div>
+            </div>
+          </section>
+        </article>
+      </section>
+      <section class="flex-content access">
+        <article class="content-access">
+          <h2 class="access-title">Get early access today</h2>
+          <p class="access-description">
+            It only takes a minute to sign up and our free starter tier is extremely generous. 
+            If you have any questions, our support team would be happy to help you.
+          </p>
+        </article>
+        <article class="access-data-buttons">
+          <input type="email" class="email access-email" placeholder="email@example.com">
+          <a href="#" class="get-started-button access-button">Get Started For Free</a>
+        </article>
+      </section>
+
+      <footer class="footer flex-content">
+        <section class="contact-medium">
+          <img src="images/logowhite.svg" alt="Logo-Fylo">
+          <h2 class="phone"><img src="images/icon-phone.svg" alt="phone-image">Phone: +1-543-123-4567</h2>
+          <h2 class="email-contact"><img src="images/icon-email.svg" alt="email-image">example@fylo.com</h2>
+        </section>
+
+
+        <ul class="nav-footer">
+              <li class="list-item-footer"><a href="#">About Us</a></li>
+              <li class="list-item-footer"><a href="#">Jobs</a></li>
+              <li class="list-item-footer"><a href="#">Press</a></li>
+              <li class="list-item-footer"><a href="#">Blog</a></li>
+        </ul>
+
+        <ul class="nav-footer">
+              <li class="list-item-footer"><a href="#">Contact Us</a></li>
+              <li class="list-item-footer"><a href="#">Terms</a></li>
+              <li class="list-item-footer"><a href="#">Privacy</a></li>
+        </ul>
+        
+
+          <div class="social-media">
+            <a href="#">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+      </footer>
+    </main>
+  </div>
+
+  <!-- <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer> -->
+</body>
+
+</html>
